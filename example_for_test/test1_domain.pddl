@@ -12,3 +12,4 @@
                     :precondition (and (BALL ?x) (ROOM ?y) (GRIPPER ?z) (carry ?z ?x) (at-robby ?y))
                     :effect (and (at-ball ?x ?y) (free ?z) (not (carry ?z ?x))))
 )
+
