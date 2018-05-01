@@ -155,7 +155,7 @@ Description:<cond-effect>可以是一系列<p-effect>的合取。
 Domain、Problem文件里面还有一些未涉及的部分。  
 \<GD>和\<effect>还有一些高阶语法。  
 以后会慢慢补充。
-## 2.functions部分以及对应的操作
+## 1.functions部分以及对应的操作
 在domain文件中可以增加function部分，框架如下：
 ```pddl
 (:functions (number1 ?x ?y ...) 
